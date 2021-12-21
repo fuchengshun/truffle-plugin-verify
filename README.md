@@ -1,4 +1,4 @@
-# truffle-plugin-verify
+# @fuchengshun/truffle-plugin-verify
 [![NPM Version](https://img.shields.io/npm/v/truffle-plugin-verify.svg)](https://www.npmjs.com/package/truffle-plugin-verify)
 [![NPM Monthly Downloads](https://img.shields.io/npm/dm/truffle-plugin-verify.svg)](https://www.npmjs.com/package/truffle-plugin-verify)
 [![NPM License](https://img.shields.io/npm/l/truffle-assertions.svg)](https://www.npmjs.com/package/truffle-plugin-verify)
@@ -12,15 +12,15 @@ I wrote a tutorial on my website that goes through the entire process of install
 ## Installation / preparation
 1. Install the plugin with npm or yarn
    ```sh
-   npm install -D truffle-plugin-verify
-   yarn add -D truffle-plugin-verify
+   npm install -D @fuchengshun/truffle-plugin-verify
+   yarn add -D @fuchengshun/truffle-plugin-verify
    ```
 2. Add the plugin to your `truffle-config.js` file
    ```js
    module.exports = {
      /* ... rest of truffle-config */
 
-     plugins: ['truffle-plugin-verify']
+     plugins: ['@fuchengshun/truffle-plugin-verify']
    }
    ```
 
